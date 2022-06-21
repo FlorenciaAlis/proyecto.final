@@ -1,0 +1,23 @@
+.services {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4rem;
+}
+
+.service {
+  border-radius: 0.25rem;
+  max-width: 32rem;
+  background-color: #fff;
+}
+
+.photo {
+  width: 100%;
+  border-radius: 0.25rem 0.25rem 0 0;
+}
+
+.title,
+.description {
+  margin: 1rem;
+}
