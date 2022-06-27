@@ -86,7 +86,59 @@
   max-width: 32rem;
 }
 
+/* contact */
+
+* {
+  font-family: "Nunito", sans-serif;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+.social {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.social-text {
+  display: flex;
+  gap: 2rem;
+}
+
+/* service */
+
+.services {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4rem;
+}
+
+.service {
+  border-radius: 0.25rem;
+  max-width: 32rem;
+  background-color: #fff;
+}
+
+.photo {
+  width: 100%;
+  border-radius: 0.25rem 0.25rem 0 0;
+}
+
+.title,
+.description {
+  margin: 1rem;
+}
+
+/* carousel*/
+
 .carousel {
-  width: 50rem;
-  padding-bottom: 10rem;
+  border-radius: 1rem;
+  width: 320px;
+  align-items:center;
+  margin-left: 25%;
 }
